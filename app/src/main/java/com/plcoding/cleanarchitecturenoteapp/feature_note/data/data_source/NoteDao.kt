@@ -1,8 +1,8 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_node.data.data_source
+package com.plcoding.cleanarchitecturenoteapp.feature_note.data.data_source
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
-import com.plcoding.cleanarchitecturenoteapp.feature_node.domain.model.Note as Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note as Note
 
 @Dao
 interface NoteDao {

@@ -1,8 +1,9 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_node.domain.model
+package com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.plcoding.cleanarchitecturenoteapp.ui.theme.*
+import java.lang.Exception
 
 @Entity
 data class Note (
@@ -17,3 +18,5 @@ data class Note (
         val noteColors = listOf(RedOrange, LightGreen, Violet, BabyBlue, RedPink)
     }
 }
+
+class InvalidNoteException(message: String) : Exception(message)

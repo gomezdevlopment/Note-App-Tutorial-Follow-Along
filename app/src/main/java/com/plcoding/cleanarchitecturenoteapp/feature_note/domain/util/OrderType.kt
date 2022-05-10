@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_node.domain.util
+package com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util
 
 sealed class OrderType{
     object Ascending: OrderType()
